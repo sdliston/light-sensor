@@ -3,6 +3,8 @@ from time import sleep
 import touchio
 from board import *
 
+# temperature and light sensors, plus light output and sound. thresholds to be adjusted as needed.
+
 while True:
   if cpx.light <10:
       cpx.pixels[0] = (10,0,0)
